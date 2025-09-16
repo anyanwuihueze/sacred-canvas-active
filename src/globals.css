@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -80,7 +79,6 @@
 
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-
 }
 
 @layer base {
@@ -211,10 +209,10 @@
     animation-delay: calc(var(--delay) * 150ms + 0.5s);
   }
 
+  /* ✅ ADDED: Standalone fade-in animation for Countdown Timer */
   .animate-fade-in {
     animation: fade-in 1.5s ease-in-out forwards;
   }
-
 }
 
 @keyframes ken-burns {

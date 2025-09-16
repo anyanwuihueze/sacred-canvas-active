@@ -5,6 +5,7 @@ import CreativeHubSection from '@/components/EventsSection';
 import AboutSection from '@/components/AboutSection';
 import BlogSection from '@/components/BlogSection';
 import Footer from '@/components/Footer';
+import CountdownTimer from '@/components/CountdownTimer';
 
 const Index = () => {
   return (
@@ -13,6 +14,11 @@ const Index = () => {
       <main className="flex-grow">
         <HeroSection />
         <GallerySection />
+        <div className="sacred-section">
+          <div className="sacred-container">
+            <CountdownTimer />
+          </div>
+        </div>
         <CreativeHubSection />
         <AboutSection />
         <BlogSection />
