@@ -19,13 +19,13 @@
     "price": "150000"
   },
   {
-    "id": 7,
-    "title": "Golden Radiance",
-    "image": "/lovable-uploads/Screenshot_20250805_124418.webp",
-    "emotion": "Joyful",
-    "story": "A woman in a stunning off-white embroidered dress, adorned with gold accents, exudes pure happiness.  Her radiant smile and confident pose capture a moment of unadulterated joy and cultural pride.",
-    "category": "Portrait",
-    "price": "250000"
+    "id": 8,
+    "title": "Kaleidoscopic Vision",
+    "image": "/lovable-uploads/cb7449cc-b296-417e-bbec-2b3c2fea257e.png",
+    "emotion": "Intrigued",
+    "story": "A fragmented eye, rendered in vibrant hues and bold brushstrokes, creates a mesmerizing optical illusion. The interplay of colors and shapes evokes a sense of depth and mystery.",
+    "category": "Contemporary",
+    "price": "180000"
   },
   {
     "id": 4,
@@ -64,13 +64,13 @@
     "price": "120000"
   },
   {
-    "id": 8,
-    "title": "Kaleidoscopic Vision",
-    "image": "/lovable-uploads/cb7449cc-b296-417e-bbec-2b3c2fea257e.png",
-    "emotion": "Intrigued",
-    "story": "A fragmented eye, rendered in vibrant hues and bold brushstrokes, creates a mesmerizing optical illusion. The interplay of colors and shapes evokes a sense of depth and mystery.",
-    "category": "Contemporary",
-    "price": "180000"
+    "id": 7,
+    "title": "Golden Radiance",
+    "image": "/lovable-uploads/Screenshot_20250805_124418.webp",
+    "emotion": "Joyful",
+    "story": "A woman in a stunning off-white embroidered dress, adorned with gold accents, exudes pure happiness.  Her radiant smile and confident pose capture a moment of unadulterated joy and cultural pride.",
+    "category": "Portrait",
+    "price": "250000"
   },
   {
     "id": 9,
