@@ -103,5 +103,3 @@ const CreativeHubSection = () => {
 };
 
 export default CreativeHubSection;
-
-    
