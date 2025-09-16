@@ -1,59 +1,62 @@
-"use client";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
-interface CountdownTimerProps {
-  targetDate: string;
-}
-
-const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
-  const calculateTimeLeft = () => {
-    const difference = +new Date(targetDate) - +new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-
-    return timeLeft;
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+export default function CountdownTimer() {
+  const targetDate = new Date('2025-07-19T00:00:00').getTime();
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance < 0) {
+        clearInterval(interval);
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      setTimeLeft({ days, hours, minutes, seconds });
     }, 1000);
 
-    return () => clearTimeout(timer);
-  });
-
-  const timerComponents: JSX.Element[] = [];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval as keyof typeof timeLeft] && timeLeft[interval as keyof typeof timeLeft] !== 0) {
-      return;
-    }
-
-    timerComponents.push(
-      <div key={interval} className="flex flex-col items-center justify-center bg-card/70 backdrop-blur-sm border border-primary/20 rounded-2xl p-4 w-24 h-24 shadow-lg">
-        <span className="text-4xl font-bold text-primary font-playfair">
-          {String(timeLeft[interval as keyof typeof timeLeft]).padStart(2, '0')}
-        </span>
-        <span className="text-xs uppercase text-muted-foreground mt-1">{interval}</span>
-      </div>
-    );
-  });
+    return () => clearInterval(interval);
+  }, [targetDate]);
 
   return (
-    <div className="flex justify-center gap-4">
-      {timerComponents.length ? timerComponents : <div className="text-2xl font-bold text-primary">Time's up!</div>}
+    <div className="text-center py-12 px-6 bg-gradient-to-b from-background to-muted rounded-2xl shadow-lg animate-fade-in">
+      <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
+        ✨ Sacred Revelation Countdown
+      </h3>
+      <p className="text-muted-foreground mb-6">
+        The illumination arrives on July 19, 2025
+      </p>
+      <div className="flex flex-wrap justify-center gap-6 text-center">
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+          <div className="text-3xl font-bold text-foreground">{timeLeft.days}</div>
+          <div className="text-sm text-muted-foreground">Days</div>
+        </div>
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+          <div className="text-3xl font-bold text-foreground">{timeLeft.hours}</div>
+          <div className="text-sm text-muted-foreground">Hours</div>
+        </div>
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+          <div className="text-3xl font-bold text-foreground">{timeLeft.minutes}</div>
+          <div className="text-sm text-muted-foreground">Minutes</div>
+        </div>
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+          <div className="text-3xl font-bold text-foreground">{timeLeft.seconds}</div>
+          <div className="text-sm text-muted-foreground">Seconds</div>
+        </div>
+      </div>
     </div>
   );
-};
-
-export default CountdownTimer;
+}
