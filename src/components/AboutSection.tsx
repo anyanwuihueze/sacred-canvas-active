@@ -189,7 +189,7 @@ const AboutSection = () => {
                   {/* Fixed Circular framed image */}
                   <div className="relative w-40 h-40 overflow-hidden rounded-full border-4 border-primary/30 shadow-2xl group-hover:shadow-[0_0_30px_rgba(255,215,0,0.7)] transition-all duration-500 mx-auto">
                     <img 
-                      src="/lovable-uploads/cletus-prof-pic.png"
+                      src="/lovable-uploads/zadoc-pic.jpg"
                       alt="Cletus Zadoc - Artist"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />

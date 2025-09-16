@@ -77,15 +77,20 @@ const CreativeHubSection = () => {
 
         {/* Quote and Image Section */}
         <div className="grid lg:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
-          <div className="relative w-32 h-32 overflow-hidden rounded-full border-4 border-primary/30 shadow-2xl mx-auto lg:mx-0">
-            <img 
-              src="/lovable-uploads/92d5dabf-d20c-4acd-b410-677a490a6211.png"
-              alt="Serene Confidence Artwork"
-              width={128}
-              height={128}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div className="relative group mx-auto lg:mx-0">
+              {/* Hover glow wrapper */}
+              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 rounded-full blur-lg group-hover:blur-xl transition-all duration-500"></div>
+              
+              {/* Fixed Circular framed image */}
+              <div className="relative w-32 h-32 overflow-hidden rounded-full border-4 border-primary/30 shadow-2xl group-hover:shadow-[0_0_30px_rgba(255,215,0,0.7)] transition-all duration-500">
+                <img 
+                  src="/lovable-uploads/zadoc-pic.jpg"
+                  alt="Cletus Zadoc - Artist"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-accent/20 mix-blend-overlay rounded-full"></div>
+              </div>
+            </div>
           <div className="lg:col-span-2">
             <p className="sacred-text italic text-lg md:text-xl">
               “These are not just events—they are soulful gatherings where art becomes a shared language of the heart.”
