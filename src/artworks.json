@@ -19,13 +19,13 @@
     "price": "150000"
   },
   {
-    "id": 3,
-    "title": "Serene Confidence",
-    "image": "/lovable-uploads/92d5dabf-d20c-4acd-b410-677a490a6211.png",
+    "id": 7,
+    "title": "Golden Radiance",
+    "image": "/lovable-uploads/Screenshot_20250805_124418.webp",
     "emotion": "Joyful",
-    "story": "A portrait of a young man, radiating warmth and self-assurance. His arms crossed, a subtle display of composure against a deep blue backdrop.",
+    "story": "A woman in a stunning off-white embroidered dress, adorned with gold accents, exudes pure happiness.  Her radiant smile and confident pose capture a moment of unadulterated joy and cultural pride.",
     "category": "Portrait",
-    "price": "120000"
+    "price": "250000"
   },
   {
     "id": 4,
@@ -55,13 +55,13 @@
     "price": "85000"
   },
   {
-    "id": 7,
-    "title": "Golden Radiance",
-    "image": "/lovable-uploads/Screenshot_20250805_124418.webp",
+    "id": 3,
+    "title": "Serene Confidence",
+    "image": "/lovable-uploads/92d5dabf-d20c-4acd-b410-677a490a6211.png",
     "emotion": "Joyful",
-    "story": "A woman in a stunning off-white embroidered dress, adorned with gold accents, exudes pure happiness.  Her radiant smile and confident pose capture a moment of unadulterated joy and cultural pride.",
+    "story": "A portrait of a young man, radiating warmth and self-assurance. His arms crossed, a subtle display of composure against a deep blue backdrop.",
     "category": "Portrait",
-    "price": "250000"
+    "price": "120000"
   },
   {
     "id": 8,
