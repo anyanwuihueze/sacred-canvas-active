@@ -137,27 +137,21 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="sacred-title text-left">
-                The Artist's
-                <span className="block text-primary font-playfair italic">Journey</span>
+                The Artist:
+                <span className="block text-primary font-playfair italic">Cletus Zadoc</span>
               </h2>
               
               <div className="space-y-6 sacred-text">
                 <p>
-                  Born from the intersection of hyperrealism and abstraction, my work explores 
-                  the sacred space where technical mastery meets emotional truth. Each portrait 
-                  begins as a study in human vulnerability, then transforms into a prayer 
-                  expressed through vibrant, flowing backgrounds.
+                  Cletus Zadoc is an internationally recognized Nigerian expressionist artist whose acrylic on canvas works and wearable art clothing explore spirituality, identity, and our shared human story. His style blends contemporary African art with sacred symbolism—Adinkra, Nsibidi, and ancient hieroglyphics—woven into bold, emotive compositions.
                 </p>
                 
                 <p>
-                  My art is not about perfection—it's about presence. The hyperrealistic faces 
-                  anchor us in our shared humanity, while the abstract backgrounds speak the 
-                  language of the soul, fluid and untranslatable yet universally understood.
+                  After returning to art in Lagos in 2022, Zadoc began by creating exclusive hand-painted fashion pieces for Nigerian celebrities and has since expanded into African art collections for galleries, collectors, and private commissions in Lagos, London, and New York.
                 </p>
                 
                 <p className="italic text-primary">
-                  "I paint what words cannot say, what silence holds, what the heart whispers 
-                  when it thinks no one is listening."
+                  “I don’t paint for WOW—I paint for the soul. Each brushstroke is a prayer. Each color a memory. Each painting a truth we often bury.”
                 </p>
               </div>
             </div>
@@ -206,7 +200,7 @@ const AboutSection = () => {
                   Cletus Zadoc
                 </h3>
                 <p className="sacred-text text-primary italic">
-                  Visionary Artist & Soul Illuminator
+                  Visual Artist & Expressionist Painter | Nigerian Contemporary African Artist
                 </p>
               </div>
               
