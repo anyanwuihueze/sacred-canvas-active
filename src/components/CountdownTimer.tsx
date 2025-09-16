@@ -62,20 +62,20 @@ export default function CountdownTimer() {
       <p className="text-muted-foreground mb-6">
         A new "Sing, Sip, and Paint" experience is just around the corner!
       </p>
-      <div className="flex flex-wrap justify-center gap-6 text-center">
-        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+      <div className="flex flex-wrap justify-center gap-4 text-center">
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-20">
           <div className="text-3xl font-bold text-foreground">{timeLeft.days}</div>
           <div className="text-sm text-muted-foreground">Days</div>
         </div>
-        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-20">
           <div className="text-3xl font-bold text-foreground">{timeLeft.hours}</div>
           <div className="text-sm text-muted-foreground">Hours</div>
         </div>
-        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-20">
           <div className="text-3xl font-bold text-foreground">{timeLeft.minutes}</div>
           <div className="text-sm text-muted-foreground">Minutes</div>
         </div>
-        <div className="bg-card p-4 rounded-lg shadow-md min-w-24">
+        <div className="bg-card p-4 rounded-lg shadow-md min-w-20">
           <div className="text-3xl font-bold text-foreground">{timeLeft.seconds}</div>
           <div className="text-sm text-muted-foreground">Seconds</div>
         </div>

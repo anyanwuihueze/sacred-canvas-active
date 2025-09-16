@@ -76,7 +76,7 @@ const CreativeHubSection = () => {
         </div>
 
         {/* Quote and Image Section */}
-        <div className="grid lg:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8 max-w-4xl mx-auto">
           <div className="relative group mx-auto lg:mx-0">
               {/* Hover glow wrapper */}
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 via-accent/20 to-secondary/20 rounded-full blur-lg group-hover:blur-xl transition-all duration-500"></div>
@@ -91,7 +91,7 @@ const CreativeHubSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-accent/20 mix-blend-overlay rounded-full"></div>
               </div>
             </div>
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 text-center lg:text-left">
             <p className="sacred-text italic text-lg md:text-xl">
               “These are not just events—they are soulful gatherings where art becomes a shared language of the heart.”
             </p>

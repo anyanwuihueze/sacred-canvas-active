@@ -81,7 +81,7 @@ const GalleryPage = () => {
 
                   <div className="pt-2">
                     <p className="text-2xl font-bold font-dm-sans text-primary">
-                      ₦{new Intl.NumberFormat().format(artwork.price)}
+                      ₦{new Intl.NumberFormat().format(artwork.price as any)}
                     </p>
                     <p className="text-sm text-muted-foreground">Nigerian Naira</p>
                   </div>
