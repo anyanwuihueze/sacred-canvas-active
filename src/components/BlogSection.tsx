@@ -19,9 +19,8 @@ const BlogSection = () => {
         {/* Blog Post 1 */}
         <div className="grid lg:grid-cols-5 gap-8 items-center bg-card border border-border rounded-2xl p-8 mb-8 shadow-lg transition-transform hover:shadow-primary/20 hover:-translate-y-2">
           <div className="lg:col-span-2">
-            {/* Placeholder for a video or image */}
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">Video/Image Placeholder</p>
+            <div className="aspect-video bg-muted rounded-lg overflow-hidden">
+              <img src="/lovable-uploads/cb7449cc-b296-417e-bbec-2b3c2fea257e.png" alt="Hyperrealistic Heart Journey" className="w-full h-full object-cover"/>
             </div>
           </div>
           <div className="lg:col-span-3 space-y-4">
@@ -41,8 +40,8 @@ const BlogSection = () => {
         {/* Blog Post 2 */}
         <div className="grid lg:grid-cols-5 gap-8 items-center bg-card border border-border rounded-2xl p-8 shadow-lg transition-transform hover:shadow-primary/20 hover:-translate-y-2">
           <div className="lg:col-span-2">
-            <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">Video/Image Placeholder</p>
+            <div className="aspect-video bg-muted rounded-lg overflow-hidden">
+               <img src="/lovable-uploads/56c0cb77-547b-48c5-a487-d0c7844b0caf.png" alt="Sacred Spaces Story" className="w-full h-full object-cover"/>
             </div>
           </div>
           <div className="lg:col-span-3 space-y-4">
