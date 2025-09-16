@@ -20,13 +20,20 @@ const BlogSection = () => {
         <div className="grid lg:grid-cols-5 gap-8 items-center bg-card border border-border rounded-2xl p-8 mb-8 shadow-lg transition-transform hover:shadow-primary/20 hover:-translate-y-2">
           <div className="lg:col-span-2">
             <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-              <img src="/lovable-uploads/cb7449cc-b296-417e-bbec-2b3c2fea257e.png" alt="Hyperrealistic Heart Journey" className="w-full h-full object-cover"/>
+              <iframe
+                src="https://www.youtube.com/embed/PGDLfhv_yFs"
+                title="Dreamer Girl"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
           <div className="lg:col-span-3 space-y-4">
             <p className="text-sm text-muted-foreground">October 26, 2023</p>
             <h3 className="text-2xl font-garamond font-semibold text-foreground">
-              The Hyperrealistic Heart: A Journey into Detail
+              Dreamer Girl: A Journey into Detail
             </h3>
             <p className="sacred-text">
               People often ask me why I pour hundreds of hours into a single eye or the subtle curve of a lip. For me, hyperrealism isn't about replicating a photograph—it's about capturing a soul...
@@ -41,13 +48,20 @@ const BlogSection = () => {
         <div className="grid lg:grid-cols-5 gap-8 items-center bg-card border border-border rounded-2xl p-8 shadow-lg transition-transform hover:shadow-primary/20 hover:-translate-y-2">
           <div className="lg:col-span-2">
             <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-               <img src="/lovable-uploads/56c0cb77-547b-48c5-a487-d0c7844b0caf.png" alt="Sacred Spaces Story" className="w-full h-full object-cover"/>
+               <iframe
+                src="https://www.youtube.com/embed/1So0SOnT6OY"
+                title="Miss Baartman Painting"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
           <div className="lg:col-span-3 space-y-4">
             <p className="text-sm text-muted-foreground">October 19, 2023</p>
             <h3 className="text-2xl font-garamond font-semibold text-foreground">
-              Sacred Spaces: The Story Behind the Abstract Backgrounds
+              Miss Baartman Painting: The Story Behind the Abstract
             </h3>
             <p className="sacred-text">
               The face is the anchor, but the background is the ocean. It's the untamed, emotional landscape where the story truly unfolds. Each color, each swirl, is a prayer...
