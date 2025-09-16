@@ -9,7 +9,7 @@ const BlogSection = () => {
         <div className="text-center space-y-6 mb-12">
           <h2 className="sacred-title">
             From the Artist's
-            <span className="block text-primary font-playfair italic">Journal</span>
+            <span className="block text-primary font-garamond italic">Journal</span>
           </h2>
           <p className="sacred-text max-w-3xl mx-auto">
             A space for stories, reflections, and behind-the-scenes glimpses into the creative process. Explore the thoughts and inspirations that fuel the canvas.
@@ -26,7 +26,7 @@ const BlogSection = () => {
           </div>
           <div className="lg:col-span-3 space-y-4">
             <p className="text-sm text-muted-foreground">October 26, 2023</p>
-            <h3 className="text-2xl font-playfair font-semibold text-foreground">
+            <h3 className="text-2xl font-garamond font-semibold text-foreground">
               The Hyperrealistic Heart: A Journey into Detail
             </h3>
             <p className="sacred-text">
@@ -47,7 +47,7 @@ const BlogSection = () => {
           </div>
           <div className="lg:col-span-3 space-y-4">
             <p className="text-sm text-muted-foreground">October 19, 2023</p>
-            <h3 className="text-2xl font-playfair font-semibold text-foreground">
+            <h3 className="text-2xl font-garamond font-semibold text-foreground">
               Sacred Spaces: The Story Behind the Abstract Backgrounds
             </h3>
             <p className="sacred-text">
@@ -65,3 +65,5 @@ const BlogSection = () => {
 };
 
 export default BlogSection;
+
+    

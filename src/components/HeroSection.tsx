@@ -19,7 +19,7 @@ const HeroSection = () => {
           <div className="space-y-6" style={{ '--delay': 1 } as React.CSSProperties}>
             <h1 className="sacred-title leading-tight">
               Where Souls
-              <span className="block text-primary font-playfair italic">
+              <span className="block text-primary font-garamond italic">
                 Speak in Color
               </span>
             </h1>
@@ -49,3 +49,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+    

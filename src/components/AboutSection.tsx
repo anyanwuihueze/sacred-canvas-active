@@ -45,7 +45,7 @@ const AboutSection = () => {
           <X className="w-4 h-4" />
         </button>
 
-        <h3 className="text-xl font-playfair font-semibold pr-8">
+        <h3 className="text-xl font-garamond font-semibold pr-8">
           {modalType === 'connect' ? 'Connect with Cletus' : 'Commission a Sacred Portrait'}
         </h3>
         <p className="text-sm text-muted-foreground">
@@ -138,7 +138,7 @@ const AboutSection = () => {
             <div className="space-y-6">
               <h2 className="sacred-title text-left">
                 The Artist:
-                <span className="block text-primary font-playfair italic">Cletus Zadoc</span>
+                <span className="block text-primary font-garamond italic">Cletus Zadoc</span>
               </h2>
               
               <div className="space-y-6 sacred-text">
@@ -196,7 +196,7 @@ const AboutSection = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-accent/20 mix-blend-overlay rounded-full"></div>
                   </div>
                 </div>
-                <h3 className="font-playfair text-2xl font-semibold text-foreground">
+                <h3 className="font-garamond text-2xl font-semibold text-foreground">
                   Cletus Zadoc
                 </h3>
                 <p className="sacred-text text-primary italic">
@@ -230,3 +230,5 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
+    

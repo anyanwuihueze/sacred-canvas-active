@@ -14,14 +14,14 @@ const CreativeHubSection = () => {
       <div className="sacred-container text-center">
         <h2 className="sacred-title mb-12">
           Creative
-          <span className="block text-primary font-playfair italic">Hub</span>
+          <span className="block text-primary font-garamond italic">Hub</span>
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           {/* Sing, Sip, and Paint Experience */}
           <Card className="bg-card/60 border-border/80 shadow-lg p-8 text-left flex flex-col">
             <div className="flex-grow space-y-4">
-              <h3 className="text-2xl font-playfair font-semibold text-foreground">
+              <h3 className="text-2xl font-garamond font-semibold text-foreground">
                 Sing, Sip, and Paint Experience (Ajah, Lagos)
               </h3>
               <p className="sacred-text text-sm">
@@ -56,7 +56,7 @@ const CreativeHubSection = () => {
           {/* One-On-One Coaching — UPDATED WITH LIVE CLASS INFO */}
           <Card className="bg-card/60 border-border/80 shadow-lg p-8 text-left flex flex-col">
             <div className="flex-grow space-y-4">
-              <h3 className="text-2xl font-playfair font-semibold text-foreground">
+              <h3 className="text-2xl font-garamond font-semibold text-foreground">
                 One-On-One Drawing & Painting Coaching
               </h3>
               <p className="sacred-text text-sm">
@@ -103,3 +103,5 @@ const CreativeHubSection = () => {
 };
 
 export default CreativeHubSection;
+
+    

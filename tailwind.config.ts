@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        space: ['Space Grotesk', 'sans-serif'],
-        playfair: ['Playfair Display', 'serif'],
+        'dm-sans': ['"DM Sans"', 'sans-serif'],
+        garamond: ['"EB Garamond"', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -61,12 +61,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Sacred color tokens
-        'gold-glow': "hsl(var(--gold-glow))",
-        'crimson-emotion': "hsl(var(--crimson-emotion))",
-        'indigo-spirit': "hsl(var(--indigo-spirit))",
-        'earth-warm': "hsl(var(--earth-warm))",
-        'earth-deep': "hsl(var(--earth-deep))",
+        // Brand color tokens
+        'gold-dark': "hsl(var(--gold-dark))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -109,3 +105,5 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+    

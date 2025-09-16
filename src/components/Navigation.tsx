@@ -15,11 +15,11 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'HOME PAGE', href: '/' },
-    { label: 'ABOUT THE ARTIST', href: '/#about' },
-    { label: 'AFRICAN ART COLLECTION', href: '/gallery' },
-    { label: 'CREATIVE HUB', href: '/#events' },
-    { label: 'BLOG', href: '/#blog' },
+    { label: 'HOME', href: '/' },
+    { label: 'ABOUT', href: '/#about' },
+    { label: 'GALLERY', href: '/gallery' },
+    { label: 'EVENTS', href: '/#events' },
+    { label: 'JOURNAL', href: '/#blog' },
   ];
 
   const handleMobileMenuClick = () => {
@@ -44,7 +44,7 @@ const Navigation = () => {
     }`}>
       <div className="sacred-container py-6">
         <div className="flex items-center justify-between">
-          <Link to="/" className="font-playfair text-2xl font-bold text-primary">
+          <Link to="/" className="font-garamond text-2xl font-bold text-primary">
             Sacred Canvas
           </Link>
           
@@ -105,3 +105,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+    

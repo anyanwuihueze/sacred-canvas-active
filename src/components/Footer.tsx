@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="sacred-container">
         <div className="grid md:grid-cols-3 gap-12">
           <div className="space-y-6">
-            <div className="font-playfair text-2xl font-bold text-primary">
+            <div className="font-garamond text-2xl font-bold text-primary">
               Sacred Canvas
             </div>
             <p className="sacred-text max-w-sm">
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           
           <div className="space-y-6">
-            <h3 className="font-space font-semibold text-foreground">Sacred Spaces</h3>
+            <h3 className="font-dm-sans font-semibold text-foreground">Sacred Spaces</h3>
             <div className="space-y-3 text-muted-foreground">
               <div>Gallery Viewing</div>
               <div>Sacred Nights Events</div>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
           
           <div className="space-y-6">
-            <h3 className="font-space font-semibold text-foreground">Connect</h3>
+            <h3 className="font-dm-sans font-semibold text-foreground">Connect</h3>
             <div className="space-y-4">
               {/* Email with Button */}
               <div className="flex items-center gap-3 group">
@@ -158,3 +158,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+    

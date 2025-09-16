@@ -25,7 +25,7 @@ const GalleryPage = () => {
           <div className="text-center space-y-6 mb-16">
             <h1 className="sacred-title">
               African Art
-              <span className="block text-primary font-playfair italic">Collection</span>
+              <span className="block text-primary font-garamond italic">Collection</span>
             </h1>
             <p className="sacred-subtitle max-w-3xl mx-auto">
               Original African paintings for sale, wearable art clothing, and spiritual pieces that inspire healing and transformation.
@@ -67,7 +67,7 @@ const GalleryPage = () => {
                 
                 <div className="p-6 space-y-4">
                   <div>
-                    <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
+                    <h3 className="font-garamond text-2xl font-semibold text-foreground mb-2">
                       {artwork.title}
                     </h3>
                     <p className="text-primary italic font-medium">
@@ -80,7 +80,7 @@ const GalleryPage = () => {
                   </p>
 
                   <div className="pt-2">
-                    <p className="text-2xl font-bold font-space text-primary">
+                    <p className="text-2xl font-bold font-dm-sans text-primary">
                       ₦{new Intl.NumberFormat().format(artwork.price)}
                     </p>
                     <p className="text-sm text-muted-foreground">Nigerian Naira</p>
@@ -97,3 +97,5 @@ const GalleryPage = () => {
 };
 
 export default GalleryPage;
+
+    
