@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -124,5 +125,50 @@
     "story": "Two denim sets, one adorned with astronauts and celestial wonders, the other with beloved SpongeBob characters, playfully collide in a vibrant celebration of childhood imagination and creativity.",
     "category": "Contemporary",
     "price": "130000"
+  },
+  {
+    "id": 15,
+    "title": "Birthday Radiance",
+    "image": "/lovable-uploads/Happy birthday beautiful 😍 Outfit from urs truly😍😍😍.jpg",
+    "emotion": "Joyful",
+    "story": "A woman celebrates her birthday in a custom-designed outfit, her radiant smile capturing a moment of pure happiness and stylish confidence.",
+    "category": "Fashion",
+    "price": "115000"
+  },
+  {
+    "id": 16,
+    "title": "Third Birthday Blessings",
+    "image": "/lovable-uploads/Happy 3rd birthday to my babygirl may you be blessed and highly favored 🙏🏻Complete outfit from (1).jpg",
+    "emotion": "Joyful",
+    "story": "A young girl celebrates her third birthday in a complete, custom-made outfit, embodying a spirit of blessing and high favor.",
+    "category": "Children's Fashion",
+    "price": "85000"
+  },
+  {
+    "id": 17,
+    "title": "Stylized Serenity",
+    "image": "/lovable-uploads/get.jpeg.jpg",
+    "emotion": "Serene",
+    "story": "A digitally rendered portrait of a woman, characterized by smooth lines and a calm expression, suggesting a moment of quiet contemplation and inner peace.",
+    "category": "Digital Art",
+    "price": "140000"
+  },
+  {
+    "id": 18,
+    "title": "Birthday Elegance",
+    "image": "/lovable-uploads/Happy birthday boo🤍🤍Thanks for rocking outfit from us🤍🤍🤍.jpg",
+    "emotion": "Elegant",
+    "story": "A woman celebrates her birthday with grace, wearing a stylish outfit that highlights her elegance and poise, expressing gratitude for the custom design.",
+    "category": "Fashion",
+    "price": "130000"
+  },
+  {
+    "id": 19,
+    "title": "Artistic Vision",
+    "image": "/lovable-uploads/IMG-20250908-WA0021.jpg",
+    "emotion": "Introspective",
+    "story": "A close-up photograph captures the intense and focused gaze of an artist, reflecting a deep connection to his creative process and vision.",
+    "category": "Portrait",
+    "price": "175000"
   }
 ]
