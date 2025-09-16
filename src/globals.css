@@ -1,0 +1,232 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sacred Sanctuary Design System - Colors, gradients, fonts for the spiritual art space */
+
+@layer base {
+  :root {
+    /* Sacred Space Color Palette */
+    --background: 0 0% 4%; /* Deep black sanctuary */
+    --foreground: 45 25% 88%; /* Warm off-white */
+
+    --card: 0 0% 6%; /* Slightly lighter for cards */
+    --card-foreground: 45 25% 88%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 45 25% 88%;
+
+    /* Sacred Gold - Primary accent */
+    --primary: 45 100% 50%; /* Pure gold */
+    --primary-foreground: 0 0% 4%;
+
+    /* Earth Tones - Secondary colors */
+    --secondary: 25 20% 15%; /* Deep earth brown */
+    --secondary-foreground: 45 25% 88%;
+
+    /* Muted tones for subtlety */
+    --muted: 0 0% 12%;
+    --muted-foreground: 45 15% 65%;
+
+    /* Spiritual Indigo - Accent color */
+    --accent: 220 60% 60%; /* Sacred indigo */
+    --accent-foreground: 45 25% 88%;
+
+    /* Crimson emotion */
+    --destructive: 345 75% 55%; /* Emotional crimson */
+    --destructive-foreground: 45 25% 88%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 45 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Sacred Design Tokens */
+    --gold-glow: 45 100% 50%;
+    --crimson-emotion: 345 75% 55%;
+    --indigo-spirit: 220 60% 60%;
+    --earth-warm: 25 25% 25%;
+    --earth-deep: 25 20% 15%;
+    
+    /* Gradients for spiritual depth */
+    --gradient-sacred: linear-gradient(135deg, hsl(0 0% 4%), hsl(25 20% 8%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 50%), hsl(35 100% 55%));
+    --gradient-emotion: linear-gradient(135deg, hsl(345 75% 55%), hsl(220 60% 60%));
+    
+    /* Sacred shadows */
+    --shadow-sacred: 0 20px 60px -15px hsl(0 0% 0% / 0.8);
+    --shadow-gold-glow: 0 0 40px hsl(45 100% 50% / 0.3);
+    --shadow-emotion: 0 10px 30px hsl(345 75% 55% / 0.2);
+    
+    /* Transitions for spiritual movement */
+    --transition-sacred: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-gentle: all 0.4s ease-out;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-space antialiased;
+    background: var(--gradient-sacred);
+  }
+
+  /* Sacred Typography */
+  .font-space {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  /* Sacred Sanctuary Components */
+  
+  .sacred-section {
+    @apply min-h-screen flex items-center justify-center px-8 py-16;
+  }
+  
+  .sacred-container {
+    @apply max-w-7xl mx-auto w-full;
+  }
+  
+  .sacred-title {
+    @apply font-playfair text-5xl md:text-7xl font-bold text-foreground;
+    text-shadow: 0 0 30px hsl(var(--gold-glow) / 0.3);
+  }
+  
+  .sacred-subtitle {
+    @apply font-space text-xl md:text-2xl text-muted-foreground;
+  }
+  
+  .sacred-text {
+    @apply font-space text-lg leading-relaxed text-muted-foreground;
+  }
+  
+  .artwork-card {
+    @apply relative overflow-hidden rounded-xl bg-card border border-border;
+    box-shadow: var(--shadow-sacred);
+    transition: var(--transition-sacred);
+  }
+  
+  .artwork-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-gold-glow), var(--shadow-sacred);
+  }
+  
+  .gold-glow {
+    box-shadow: var(--shadow-gold-glow);
+  }
+  
+  .emotion-glow {
+    box-shadow: var(--shadow-emotion);
+  }
+  
+  /* Sacred Button Variants */
+  .btn-sacred {
+    @apply relative overflow-hidden bg-secondary text-secondary-foreground border border-border;
+    transition: var(--transition-gentle);
+  }
+  
+  .btn-sacred::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r;
+    background: var(--gradient-gold);
+    opacity: 0;
+    transition: var(--transition-gentle);
+  }
+  
+  .btn-sacred:hover::before {
+    opacity: 1;
+  }
+  
+  .btn-sacred:hover {
+    @apply text-primary-foreground;
+    box-shadow: var(--shadow-gold-glow);
+  }
+  
+  .btn-voice {
+    @apply relative bg-accent/20 text-accent-foreground border border-accent/30;
+    backdrop-filter: blur(10px);
+  }
+  
+  .btn-voice:hover {
+    @apply bg-accent/30;
+    box-shadow: 0 0 30px hsl(var(--indigo-spirit) / 0.4);
+  }
+
+  /* Sacred Navigation */
+  .nav-link {
+    @apply relative font-space font-medium text-muted-foreground;
+    transition: var(--transition-gentle);
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary;
+    transition: var(--transition-gentle);
+  }
+  
+  .nav-link:hover {
+    @apply text-primary;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Animations for Hero Section */
+  .animate-ken-burns {
+    animation: ken-burns 40s ease-in-out infinite alternate;
+  }
+
+  .animate-fade-in-stagger > * {
+    --delay: 0;
+    opacity: 0;
+    animation: fade-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: calc(var(--delay) * 150ms + 0.5s);
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1.5s ease-in-out forwards;
+  }
+
+}
+
+@keyframes ken-burns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.2) translate(-5%, 5%);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

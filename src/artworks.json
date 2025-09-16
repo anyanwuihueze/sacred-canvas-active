@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Golden Script Illumination",
+    "image": "/lovable-uploads/3caa06e4-be46-41b2-93c9-03c7db376261.png",
+    "emotion": "Hopeful",
+    "story": "A stylized signature, 'Cletus Zadoc,' is presented against a stark black backdrop, underscored by a golden line, conveying a sense of artistic identity and the promise of illuminating art.",
+    "category": "Logo Design",
+    "price": "50000"
+  },
+  {
+    "id": 2,
+    "title": "Chromatic Joy",
+    "image": "/lovable-uploads/56c0cb77-547b-48c5-a487-d0c7844b0caf.png",
+    "emotion": "Joy",
+    "story": "A vibrant portrait explodes with color, capturing a child's uninhibited laughter and radiant spirit.  The bold strokes and vivid hues create a sense of pure, unadulterated happiness.",
+    "category": "Contemporary Portrait",
+    "price": "150000"
+  },
+  {
+    "id": 3,
+    "title": "Serene Confidence",
+    "image": "/lovable-uploads/92d5dabf-d20c-4acd-b410-677a490a6211.png",
+    "emotion": "Joyful",
+    "story": "A portrait of a young man, radiating warmth and self-assurance. His arms crossed, a subtle display of composure against a deep blue backdrop.",
+    "category": "Portrait",
+    "price": "120000"
+  },
+  {
+    "id": 4,
+    "title": "Ramadan Nights: A Celebration of Style",
+    "image": "/lovable-uploads/IMG_20250805_104707.webp",
+    "emotion": "Joyful",
+    "story": "A vibrant display of hand-painted clothing, showcasing bold patterns and colors, complements a charming Ramadan-themed artwork, creating a festive and artistic atmosphere.",
+    "category": "Contemporary",
+    "price": "75000"
+  },
+  {
+    "id": 5,
+    "title": "Chromatic Speedway",
+    "image": "/lovable-uploads/IMG_20250805_105148.webp",
+    "emotion": "Joyful",
+    "story": "A child's denim jumpsuit is transformed into a vibrant canvas, showcasing hand-painted characters from the animated film Cars, playfully splashed with vibrant colors, creating a sense of whimsical energy and movement.",
+    "category": "Contemporary",
+    "price": "95000"
+  },
+  {
+    "id": 6,
+    "title": "Vibrant Rhapsody",
+    "image": "/lovable-uploads/IMG_20250805_105752.webp",
+    "emotion": "Joyful",
+    "story": "A dynamic portrait painted on a t-shirt, the artwork uses bold colors and expressive lines to capture the essence of a woman's confidence and inner radiance.  The artist's use of vibrant hues and flowing forms creates a sense of energy and movement.",
+    "category": "Contemporary",
+    "price": "85000"
+  },
+  {
+    "id": 7,
+    "title": "Golden Radiance",
+    "image": "/lovable-uploads/Screenshot_20250805_124418.webp",
+    "emotion": "Joyful",
+    "story": "A woman in a stunning off-white embroidered dress, adorned with gold accents, exudes pure happiness.  Her radiant smile and confident pose capture a moment of unadulterated joy and cultural pride.",
+    "category": "Portrait",
+    "price": "250000"
+  },
+  {
+    "id": 8,
+    "title": "Kaleidoscopic Vision",
+    "image": "/lovable-uploads/cb7449cc-b296-417e-bbec-2b3c2fea257e.png",
+    "emotion": "Intrigued",
+    "story": "A fragmented eye, rendered in vibrant hues and bold brushstrokes, creates a mesmerizing optical illusion. The interplay of colors and shapes evokes a sense of depth and mystery.",
+    "category": "Contemporary",
+    "price": "180000"
+  },
+  {
+    "id": 9,
+    "title": "Serene Confidence",
+    "image": "/lovable-uploads/cletus-prof-pic.png",
+    "emotion": "Joyful",
+    "story": "A portrait of a man exuding warmth and self-assurance, his broad smile and confident pose captured against a contrasting blue backdrop. The circular frame adds a modern, minimalist touch.",
+    "category": "Portrait",
+    "price": "125000"
+  },
+  {
+    "id": 10,
+    "title": "Golden Hues of Unity",
+    "image": "/lovable-uploads/couple 1.webp",
+    "emotion": "Joyful",
+    "story": "A vibrant portrayal of a couple, adorned in matching shirts featuring stylized faces in gold, exudes a sense of shared identity and happiness. The bold design and joyful expressions capture a moment of connection and shared cultural pride.",
+    "category": "Contemporary",
+    "price": "220000"
+  },
+  {
+    "id": 11,
+    "title": "Crimson Confidence",
+    "image": "/lovable-uploads/de9457e8-8b9d-4534-9322-a856502caeb0.png",
+    "emotion": "Bold",
+    "story": "A stylized portrait of a woman, her gaze sharp and unwavering, exudes confidence through a vibrant palette of red and black accents against a grayscale canvas.",
+    "category": "Contemporary",
+    "price": "165000"
+  },
+  {
+    "id": 12,
+    "title": "Crimson Rhythm",
+    "image": "/lovable-uploads/doodle1.webp",
+    "emotion": "Joyful",
+    "story": "A vibrant red maxi dress adorned with a playful pattern of hearts, dots, and lines, exudes a sense of spirited energy and self-expression. The model's radiant smile complements the dress's cheerful design.",
+    "category": "Fashion Photography",
+    "price": "90000"
+  },
+  {
+    "id": 13,
+    "title": "XOXO Kisses & Hugs",
+    "image": "/lovable-uploads/doodle2.webp",
+    "emotion": "Joyful",
+    "story": "A vibrant portrait captures a woman radiating happiness, her stylish XOXO-printed dress a bold statement of playful confidence against a textured backdrop.",
+    "category": "Portrait",
+    "price": "110000"
+  },
+  {
+    "id": 14,
+    "title": "Cosmic Crew & Bikini Bottom Blastoff",
+    "image": "/lovable-uploads/kids1.webp",
+    "emotion": "Joyful",
+    "story": "Two denim sets, one adorned with astronauts and celestial wonders, the other with beloved SpongeBob characters, playfully collide in a vibrant celebration of childhood imagination and creativity.",
+    "category": "Contemporary",
+    "price": "130000"
+  }
+]
